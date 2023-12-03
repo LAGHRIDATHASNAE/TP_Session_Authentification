@@ -5,13 +5,13 @@ Ce TP consiste à implémenter les fonctionnalités d'inscription, d'authentific
 Cet exercice a pour architecture:
 
 ma.projet
-1)classes(User,Client,Employe)
-2)services(ClientService,EmployeService)
-3)config(hibernate.cfg.xml)
-4)util(HibernateUtil)
-5)Test(Test --> plusieurs fichiers réparties, chaque entité a son fichier de test/ manipulation avec la base de données/ l'affichage composé des méthodes définies au niveau du couche service.
-6)dao(IDao)
-7)controllers(AuthentificationController.java,ClientController.java,DeconnexionController.java,PasswordController.java,UpdatePasswordController.java,VerificationController.java)
+- classes(User,Client,Employe)
+- services(ClientService,EmployeService)
+- config(hibernate.cfg.xml)
+- util(HibernateUtil)
+- Test(Test --> plusieurs fichiers réparties, chaque entité a son fichier de test/ manipulation avec la base de données/ l'affichage composé des méthodes définies au niveau du couche service.
+- dao(IDao)
+- controllers(AuthentificationController.java,ClientController.java,DeconnexionController.java,PasswordController.java,UpdatePasswordController.java,VerificationController.java)
 
 Pour base de données, veuillez créer la base de données : authentification
 
